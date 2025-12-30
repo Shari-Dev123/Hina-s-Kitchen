@@ -1,0 +1,30 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.app::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('./assets/hero.jfif');
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px);
+  transform: scale(1.1);
+  z-index: -2;
+}
+
+.app::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(44, 41, 41, 0.548);
+  z-index: -1;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
