@@ -59,7 +59,7 @@
 }
 
 .favorite-card {
-  background: #d1d1d1c2;
+  background: #ffffff;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.185);
@@ -89,15 +89,15 @@
 }
 
 .favorite-info h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  color: #222;
+  color: #000000;
 }
 
 .favorite-info span {
   font-size: 1rem;
   font-weight: 600;
-  color: #fcfcfce0;
+  color: #000000e0;
   white-space: nowrap;
 }
 
@@ -115,6 +115,7 @@
 
 .add-favorite-btn:hover {
   transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 28px 65px rgb(0, 0, 0);
 }
 
 @keyframes fadeInUp {

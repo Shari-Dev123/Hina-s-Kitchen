@@ -4,7 +4,7 @@ import { CartContext } from '../context/CartContext.jsx';
 
 import biryani from '../../assets/Chicken-Biryani.jpg';
 import andaBurger from '../../assets/Anda-Shami-Burger.jpg';
-import zingerBurger from '../../assets/Zinger.webp';
+import zingerBurger from '../../assets/Zinger.png';
 
 function FavoriteItems() {
   const { cartItems, addToCart, updateQty, removeFromCart } = useContext(CartContext);

@@ -7,7 +7,7 @@ import Hero from './Components/Hero/Hero.jsx';
 import About from './Components/About/About.jsx';
 import FavoriteItems from './Components/FeaturedItems/FavoriteItems.jsx';
 import Services from './Components/Deals/Deals.jsx';
-import Reviews from './Components/TestimonialsSection/TestimonialsSection.jsx';
+import Reviews from './Components/ChefNoteSection/ChefNoteSection.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import MenuSection from './Components/Menu/MenuSection.jsx';
 import Cart from './Components/Cart/Cart.jsx';
