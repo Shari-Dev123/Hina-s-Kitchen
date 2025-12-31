@@ -12,29 +12,30 @@ function Cart() {
     }
 
     let message =
-`Hello Hina’s Kitchen 👋
+`Hello Hina’s Kitchen,
 
-🧾 *New Order Request*
+New Order Request
 
-🍽️ *Order Details*
+Order Summary
 `;
 
-    cartItems.forEach(item => {
-      message += `• ${item.name} × ${item.qty} = ${item.price * item.qty} PKR\n`;
-    });
+cartItems.forEach(item => {
+  message += `- ${item.name} x ${item.qty} | ${item.price * item.qty} PKR\n`;
+});
 
-    message += `
-────────────────────
-📅 *Delivery Date:* 
-⏰ *Delivery Time:* 
+message += `
+------------------------------------
+Delivery Date:
+Delivery Time:
 
-👤 *Customer Name:* 
-📞 *Contact Number:* 
-📍 *Delivery Address:* 
+Customer Name:
+Contact Number:
+Delivery Address:
 
-Thank you for choosing *Hina’s Kitchen* ❤️
-Fresh, hygienic & homemade — just for you.
+Thank you for choosing Hina’s Kitchen.
+We are committed to delivering fresh, hygienic, and home-style meals with consistent quality.
 `;
+
 
     const whatsappURL = `https://wa.me/923305277853?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
