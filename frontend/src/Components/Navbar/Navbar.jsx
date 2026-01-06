@@ -35,7 +35,7 @@ function Navbar() {
 
         <div className="nav-logo" onClick={() => scrollToSection('hero')}>
           <img src={logoImg} alt="Hina's Kitchen" />
-          <span>Hina's Kitchen</span>
+          <span>Hina's kitchen</span>
         </div>
 
         <nav className={`nav-menu ${isOpen ? 'active' : ''}`}>
